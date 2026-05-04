@@ -1,0 +1,55 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.venv/
+venv/
+env/
+bin/
+lib/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.installed.cfg
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Deep Learning specific (Large Files)
+# Generally, don't track your datasets or weights
+data/
+datasets/
+models/
+weights/
+*.h5
+*.pth
+*.pt
+*.ckpt
+*.pb
+*.onnx
+
+# Training logs and visualization
+logs/
+runs/
+.tensorboard/
+mlruns/
+wandb/
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Environment variables / Secrets
+.env
