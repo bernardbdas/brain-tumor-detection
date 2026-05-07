@@ -1,0 +1,30 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "uv sync",
+            "type": "shell",
+            "command": "uv sync",
+            "problemMatcher": [],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "Install dependencies using uv"
+        },
+        {
+            "label": "Run Flask App",
+            "type": "shell",
+            "command": "uv run flask run",
+            "options": {
+                "env": {
+                    "FLASK_APP": "main.py",
+                    "FLASK_DEBUG": "1"
+                }
+            },
+            "problemMatcher": [],
+            "group": "test",
+            "detail": "Run the Flask application via uv"
+        }
+    ]
+}
