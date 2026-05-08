@@ -1,0 +1,4 @@
+[core]
+    remote = voyager
+['remote "voyager"']
+    url = ssh://galahad@192.168.29.255/home/galahad/Projects/DATA-SCIENCE/brain-tumor-detection/models
