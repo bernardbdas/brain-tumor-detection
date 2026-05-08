@@ -9,3 +9,4 @@ services:
       - ..:/app # Mount the parent directory to /app
     environment:
       - PYTHONUNBUFFERED=1
+      - UV_LINK_MODE=copy
