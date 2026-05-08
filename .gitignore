@@ -34,6 +34,7 @@ weights/
 *.pb
 *.pt
 *.pth
+*.db
 
 # Training Logs & Visualization
 .tensorboard/
@@ -59,3 +60,4 @@ Thumbs.db
 
 # Environment Variables / Secrets
 .env
+/models
