@@ -1,0 +1,11 @@
+services:
+  flask-app:
+    build:
+      context: .. # Look one level up for the source code
+      dockerfile: docker/Dockerfile # Path to the Dockerfile relative to the context
+    ports:
+      - "5000:5000"
+    volumes:
+      - ..:/app # Mount the parent directory to /app
+    environment:
+      - PYTHONUNBUFFERED=1
